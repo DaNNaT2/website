@@ -1,0 +1,89 @@
+{% extends "base_room.html" %}
+{% load static %}
+
+{% block page_title %}Стандарт трёхместный — Вилла «Эльвика»{% endblock %}
+{% block page_description %}Уютный стандартный трёхместный номер для 1–3 гостей: двуспальная и односпальная кровати, Wi‑Fi, кондиционер, ТВ, холодильник, чайник и балкон с видом на бассейн и сад.{% endblock %}
+
+{% block room_title %}Стандарт трёхместный номер{% endblock %}
+{% block room_subtitle %}Комфортный номер на 1–3 гостей. Компоновка: одна двуспальная и одна односпальная кровать.{% endblock %}
+
+{% block room_features %}
+  <span class="chip">40 м²</span>
+  <span class="chip">1–3 гостя</span>
+  <span class="chip">Двуспальная + односпальная</span>
+  <span class="chip">Кондиционер</span>
+  <span class="chip">Wi‑Fi</span>
+  <span class="chip">Телевизор</span>
+  <span class="chip">Холодильник</span>
+  <span class="chip">Чайник</span>
+  <span class="chip">Балкон</span>
+  <span class="chip">Вид на бассейн и сад</span>
+{% endblock %}
+
+{% block room_price %}2 000 – 3 500 ₽{% endblock %}
+
+{% block hero_image %}
+  <img src="{% static 'home/img/standart_3p/g.jpg' %}" alt="Стандартный трёхместный номер — общий вид" />
+{% endblock %}
+{% block hero_badge %}Популярный выбор{% endblock %}
+
+{% block room_carousel %}
+  <div class="carousel"
+       data-images="{% static 'home/img/standart_3p/g.jpg' %}, {% static 'home/img/standart_3p/1.jpg' %}, {% static 'home/img/standart_3p/2.jpg' %}, {% static 'home/img/standart_3p/3.jpg' %}, {% static 'home/img/standart_3p/4.jpg' %}, {% static 'home/img/standart_3p/5.jpg' %}, {% static 'home/img/standart_3p/6.jpg' %}, {% static 'home/img/standart_3p/7.jpg' %}">
+  </div>
+{% endblock %}
+
+{% block room_gallery %}
+  <img src="{% static 'home/img/standart_3p/g.jpg' %}" alt="Главная">
+  <img src="{% static 'home/img/standart_3p/1.jpg' %}" alt="Спальная зона: двуспальная и односпальная кровати">
+  <img src="{% static 'home/img/standart_3p/2.jpg' %}" alt="Зона отдыха и телевизор">
+  <img src="{% static 'home/img/standart_3p/3.jpg' %}" alt="Рабочая зона и хранение вещей">
+  <img src="{% static 'home/img/standart_3p/4.jpg' %}" alt="Балкон с видом на бассейн и сад">
+  <img src="{% static 'home/img/standart_3p/5.jpg' %}" alt="Санузел с душем">
+  <img src="{% static 'home/img/standart_3p/6.jpg' %}" alt="Интерьер номера">
+  <img src="{% static 'home/img/standart_3p/7.jpg' %}" alt="Детали интерьера">
+{% endblock %}
+
+{% block room_description %}
+  Номер категории «Стандарт трёхместный» подходит для удобного размещения 1–3 гостей. В компоновке предусмотрены одна двуспальная и одна односпальная кровати.
+  В номере — собственный санузел с душем, кондиционер, телевизор, бесплатный Wi‑Fi, холодильник и электрический чайник. Балкон позволяет насладиться свежим
+  воздухом и спокойным видом на бассейн и зелёный сад.
+
+   Оснащение и удобства:
+   <p>— Площадь: 40 м²</P>
+   <p>— Спальные места: 1 двуспальная + 1 односпальная кровать</P>
+   <p>— Санузел с душем, фен, набор полотенец, туалетные принадлежности</p>
+   <p>— Кондиционер, отопление (в межсезонье)</p>
+   <p>— Телевизор, бесплатный Wi‑Fi</p>
+   <p>— Холодильник, электрочайник, базовая посуда (по запросу)</p>
+   <p>— Шкаф для одежды, прикроватные тумбы, рабочее место</p>
+   <p>— Балкон, вид на бассейн и сад</p>
+  
+   <p>Полезная информация:</p>
+   <p>— Размещение детей возможно; детская кроватка — по запросу</p>
+   <p>— Доп. место обсуждается при бронировании</p>
+   <p>— Уборка и смена полотенец — по графику</p>
+   <p>— Номер для некурящих</p>
+   <p>— Время заезда: после 14:00, выезда: до 12:00</p>
+{% endblock %}
+
+{% block extra_sections %}
+  <section>
+    <h2>Что включено в стоимость</h2>
+    <div class="muted">
+      <p>— Проживание выбранной категории</p>
+      <p>— Пользование бассейном и общей территорией</p>
+      <p>— Высокоскоростной Wi‑Fi на всей территории</p>
+      <p>— Ежедневная поддерживающая уборка (по графику)</p>
+      <p>— Парковка на территории (при наличии свободных мест)</p>
+    </div>
+  </section>
+  <section>
+    <h2>Правила размещения</h2>
+    <div class="muted">
+      <p>— Курение в номерах запрещено</p>
+      <p>— Домашние животные — по предварительному согласованию</p>
+      <p>— Тихие часы: 22:00–08:00</p>
+    </div>
+  </section>
+{% endblock %}

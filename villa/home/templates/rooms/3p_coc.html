@@ -1,0 +1,92 @@
+{% extends "base_room.html" %}
+{% load static %}
+
+{% block page_title %}Стандарт трёхместный с кухней — Вилла «Эльвика»{% endblock %}
+{% block page_description %}Уютный стандартный трёхместный номер с кухней для 1–3 гостей: двуспальная и односпальная кровати, кухня с необходимой техникой, Wi‑Fi, кондиционер, ТВ, холодильник, чайник и балкон с видом на бассейн и сад.{% endblock %}
+
+{% block room_title %}Стандарт трёхместный с кухней{% endblock %}
+{% block room_subtitle %}Комфортный номер для 1–3 гостей с полноценной кухней. Компоновка: одна двуспальная и одна односпальная кровать.{% endblock %}
+
+{% block room_features %}
+  <span class="chip">40 м²</span>
+  <span class="chip">1–3 гостя</span>
+  <span class="chip">Двуспальная + односпальная</span>
+  <span class="chip">Кухня</span>
+  <span class="chip">Кондиционер</span>
+  <span class="chip">Wi‑Fi</span>
+  <span class="chip">Телевизор</span>
+  <span class="chip">Холодильник</span>
+  <span class="chip">Чайник</span>
+  <span class="chip">Посуда (по запросу)</span>
+  <span class="chip">Балкон</span>
+  <span class="chip">Вид на бассейн и сад</span>
+{% endblock %}
+
+{% block room_price %}2 100 – 3 600 ₽{% endblock %}
+
+{% block hero_image %}
+  <img src="{% static 'home/img/kitchen_3p/g.jpg' %}" alt="Стандартный трёхместный номер с кухней — общий вид" />
+{% endblock %}
+{% block hero_badge %}С кухней{% endblock %}
+
+{% block room_carousel %}
+  <div class="carousel"
+       data-images="{% static 'home/img/kitchen_3p/g.jpg' %}, {% static 'home/img/kitchen_3p/1.jpg' %}, {% static 'home/img/kitchen_3p/2.jpg' %}, {% static 'home/img/kitchen_3p/3.jpg' %}, {% static 'home/img/kitchen_3p/4.jpg' %}, {% static 'home/img/kitchen_3p/5.jpg' %}, {% static 'home/img/kitchen_3p/6.jpg' %}, {% static 'home/img/kitchen_3p/7.jpg' %}, {% static 'home/img/kitchen_3p/8.jpg' %}, {% static 'home/img/kitchen_3p/9.jpg' %}">
+  </div>
+{% endblock %}
+
+{% block room_gallery %}
+  <img src="{% static 'home/img/kitchen_3p/g.jpg' %}" alt="Главное фото">
+  <img src="{% static 'home/img/kitchen_3p/1.jpg' %}" alt="Спальная зона: двуспальная и односпальная кровати">
+  <img src="{% static 'home/img/kitchen_3p/2.jpg' %}" alt="Кухонная зона с плитой и раковиной">
+  <img src="{% static 'home/img/kitchen_3p/3.jpg' %}" alt="Обеденный стол и посуда">
+  <img src="{% static 'home/img/kitchen_3p/4.jpg' %}" alt="Холодильник и место хранения">
+  <img src="{% static 'home/img/kitchen_3p/5.jpg' %}" alt="Зона отдыха и телевизор">
+  <img src="{% static 'home/img/kitchen_3p/6.jpg' %}" alt="Балкон с видом на бассейн и сад">
+  <img src="{% static 'home/img/kitchen_3p/7.jpg' %}" alt="Санузел с душем">
+  <img src="{% static 'home/img/kitchen_3p/8.jpg' %}" alt="Интерьер номера — детали">
+  <img src="{% static 'home/img/kitchen_3p/9.jpg' %}" alt="Кухонная техника крупным планом">
+{% endblock %}
+
+{% block room_description %}
+  <p>Номер категории «Стандарт трёхместный с кухней» подходит для размещения 1–3 гостей. В компоновке предусмотрены одна двуспальная и одна односпальная кровати. Полноценная кухонная зона позволит готовить дома: есть варочная панель, раковина, холодильник и электрический чайник, базовый набор посуды предоставляется по запросу.</p>
+  <p>В номере — собственный санузел с душем, кондиционер, телевизор и бесплатный Wi‑Fi. Балкон открывает вид на бассейн и зелёный сад.</p>
+
+  <p><strong>Оснащение и удобства:</strong></p>
+  <p>— Площадь: 40 м²</p>
+  <p>— Спальные места: 1 двуспальная + 1 односпальная кровать</p>
+  <p>— Кухня: варочная панель, раковина, холодильник, электрочайник, базовая посуда (по запросу)</p>
+  <p>— Санузел с душем, фен, набор полотенец, туалетные принадлежности</p>
+  <p>— Кондиционер, отопление (в межсезонье)</p>
+  <p>— Телевизор, бесплатный Wi‑Fi</p>
+  <p>— Шкаф для одежды, прикроватные тумбы, рабочее место</p>
+  <p>— Балкон, вид на бассейн и сад</p>
+
+  <p><strong>Полезная информация:</strong></p>
+  <p>— Размещение детей возможно; детская кроватка — по запросу</p>
+  <p>— Доп. место обсуждается при бронировании</p>
+  <p>— Уборка и смена полотенец — по графику</p>
+  <p>— Номер для некурящих</p>
+  <p>— Время заезда: после 14:00, выезда: до 12:00</p>
+{% endblock %}
+
+{% block extra_sections %}
+  <section>
+    <h2>Что включено в стоимость</h2>
+    <div class="muted">
+      <p>— Проживание выбранной категории</p>
+      <p>— Пользование бассейном и общей территорией</p>
+      <p>— Высокоскоростной Wi‑Fi на всей территории</p>
+      <p>— Ежедневная поддерживающая уборка (по графику)</p>
+      <p>— Парковка на территории (при наличии свободных мест)</p>
+    </div>
+  </section>
+  <section>
+    <h2>Правила размещения</h2>
+    <div class="muted">
+      <p>— Курение в номерах запрещено</p>
+      <p>— Домашние животные — по предварительному согласованию</p>
+      <p>— Тихие часы: 22:00–08:00</p>
+    </div>
+  </section>
+{% endblock %}
